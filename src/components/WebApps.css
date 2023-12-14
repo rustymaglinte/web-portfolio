@@ -133,6 +133,13 @@
     } 
 }
 
+@media (max-width: 639px) {
+
+    .apps-container h4 {
+        padding-top: 9%;
+    }
+}
+
 @media (max-width: 500px) {
     .bakery-photo, .aupair-photo {
         height: 10rem;

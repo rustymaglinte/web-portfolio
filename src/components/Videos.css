@@ -68,6 +68,14 @@
     }
 }
 
+@media (max-width: 639px) {
+
+    .videos-container h4 {
+        padding-top: 9%;
+    }
+}
+
+
 @media (max-width: 600px) {
     .video {
         height: 12rem;

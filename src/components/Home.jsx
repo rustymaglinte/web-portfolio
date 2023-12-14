@@ -53,7 +53,7 @@ const Home = ({ words }) => {
                     <img
                         src="../../media/web_portfolio_2.0/prof-img.webp"
                         srcSet="../../media/web_portfolio_2.0/prof-img1.webp 768w, ../../media/web_portfolio_2.0/prof-img2.webp 480w"
-                        sizes="(max-width: 768px) 768px, (max-width: 480px) 480px, 1600px"
+                        sizes="(max-width: 860px) 860px, (max-width: 480px) 480px, 1600px"
                         alt="Rusty Maglinte's photo"
                         className="profile"
                     />

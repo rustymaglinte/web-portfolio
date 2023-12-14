@@ -1,5 +1,5 @@
 .home {
-    background: radial-gradient(circle at 100% 50%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 30%);
+    background: radial-gradient(circle at 100% 40%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 23rem);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -43,18 +43,19 @@
     position: absolute;
     border: none;
     border-radius: 1rem;
-    top: 27rem;
+    top: 25rem;
     height: 2.3rem;
     font-size: large;
+    opacity: 0.7;
 }
 
 .home button:hover {
-    background-color: #ce003e;
+    opacity: 1;
 }
 
 .intro {
-    margin-left: 20%;
-    padding-top: 8%;
+    margin-left: 30%;
+    padding-top: 4%;
     height: auto;
     position: relative;
 }
@@ -67,11 +68,12 @@
 }
 
 .icons {
-    top: 36rem;
-    right: 40%;
+    top: 37rem;
+    margin-left: 30%;
     position: absolute;
     width: auto;
     z-index: 1;
+    opacity: 0.7;
 }
 
 .icon {
@@ -85,9 +87,10 @@
     opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     .home {
         height: 100vh;
+        background: radial-gradient(circle at 100% 55%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 18rem);
     }
 
     .home .profile {
@@ -110,8 +113,12 @@
     }
 
     .icons {
-        left: 20%;
+        margin-left: 30%;
         bottom: 7rem;
+        background-color: #121212;
+        height: 5%;
+        border-radius: 0.5rem;
+        opacity: 0.7;
     }
 
 
@@ -142,7 +149,7 @@
     }
 
     .icons {
-        left: 20%;
+        margin-left: 30%;
         bottom: 10rem;
     }
 
@@ -172,6 +179,6 @@
     }
 
     .home .profile {
-        height: 75vh !important;
+        height: 60vh !important;
     }
 }
