@@ -1,0 +1,88 @@
+.about {
+    background-color: #121212;
+    color: #b6b6b6;
+    height: 100vh;
+}
+
+.about h4 {
+    font-family: 'GFS Didot', serif;
+    color: #24DB8B;
+    letter-spacing: 0.2rem;
+    margin-top: 0;
+    padding-top: 7%;
+}
+
+.about p {
+    margin-bottom: 0;
+    line-height: 30px;
+    margin-top: 2px;
+}
+
+.about span {
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.about-me,
+.tech-stacks {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5rem;
+}
+
+.tech-stacks h4 {
+    padding-top: 0;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.technologies p {
+    color: #ffff;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 6rem;
+    justify-content: left;
+}
+
+.logo {
+    height: 45px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 639px) {
+    .about {
+        height: 60rem;
+    }
+
+    .about h4 {
+        padding-top: 8%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        height: 70rem;
+    }
+
+    .about h4 {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 320px) {
+    .about {
+        height: 90rem;
+    }
+}

@@ -1,0 +1,74 @@
+.nav-container {
+    position: fixed;
+    z-index: 1;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-family: 'GFS Didot', serif;
+}
+
+.hamburger-container {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+}
+
+.navigation a {
+    margin-bottom: 10%;
+    text-decoration: none;
+    font-size: large;
+    color: #b6b6b6;
+}
+
+.navigation a:hover {
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 768px) {
+
+    .hamburger-container {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background: rgba(18, 18, 18, 0.8);
+        width: 6rem;
+        border-radius: 0.5rem;
+    }
+
+    .navigation a {
+        margin-bottom: 20%;
+    }
+
+    .navigation a:hover {
+        color: #ffff;
+        font-weight: bold;
+        letter-spacing: 0.05rem;
+    }
+
+    .navigation.mobile {
+        display: flex;
+    }
+
+    .hamburger {
+        font-size: 1.5rem;
+        color: #b6b6b6;
+        border: none;
+        background: none;
+    }
+
+    .hamburger:hover {
+        color: #ffff;
+    }
+
+}

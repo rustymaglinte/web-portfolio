@@ -1,0 +1,22 @@
+.blogs-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #121212;
+    height: 100vh;
+}
+
+.blogs-container h4 {
+    font-family: 'GFS Didot', serif;
+    color: #24DB8B;
+    letter-spacing: 0.2rem;
+    margin-top: 0;
+    padding-top: 7%;
+}
+
+.blogs-container h1 {
+    font-family: 'GFS Didot', serif;
+    color: #b6b6b6;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 20%;
+}

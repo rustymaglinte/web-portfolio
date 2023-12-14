@@ -1,0 +1,145 @@
+.apps-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #121212;
+    padding-bottom: 7rem;
+}
+
+.apps-container h4 {
+    font-family: 'GFS Didot', serif;
+    color: #24DB8B;
+    letter-spacing: 0.2rem;
+    margin-top: 0;
+    padding-top: 7%;
+}
+
+.apps-container .bakery h5 {
+    color: #24DB8B;
+    letter-spacing: 0.1rem;
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+
+.apps-container .wedding h5 {
+    color: #24DB8B;
+    letter-spacing: 0.1rem;
+    margin-top: 10rem;
+    font-size: 1rem;
+}
+
+.apps-container .aupair h5 {
+    color: #24DB8B;
+    letter-spacing: 0.1rem;
+    margin-top: 10rem;
+    font-size: 1rem;
+}
+
+.apps-container p {
+    margin-bottom: 0;
+    line-height: 30px;
+    margin-top: 2px;
+    color: #b6b6b6;
+}
+
+.project1, .project2, .project3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.bakery-photo {
+    height: 15rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.aupair-photo {
+    height: 15rem;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+
+.wedding-photo {
+    height: 15rem;
+    margin-top: 10rem;
+    margin-right: 3rem;
+}
+
+.apps-container a {
+    color: #DB2474;
+    text-decoration: none;
+    padding: 0.4rem 0.3rem;
+    transition: all 0.2s;
+}
+
+.apps-container a:hover {
+    color: #DB2474;
+    padding: 0.4rem 0.3rem;
+    letter-spacing: 0.01rem;
+}
+
+.apps-container button {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: solid 1px #DB2474;
+    position: absolute;
+    bottom: 0;
+}
+
+.bakery, .aupair, .wedding {
+    position: relative;
+}
+
+.apps-container img {
+    transition: all 0.4s;
+}
+
+.apps-container img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 735px) {
+    .project1,  .project3 {
+        flex-direction: column-reverse;
+    }
+
+    .project2 {
+        flex-direction: column;
+    }
+
+    .apps-container .bakery h5 {
+        margin-top: 2rem;
+    }
+
+    .apps-container .wedding h5 {
+        margin-top: 2rem;
+    }
+
+    .apps-container .aupair h5 {
+        margin-top: 2rem;
+    }
+
+    .bakery-photo, .aupair-photo {
+        margin-left: 0;
+        height: 12rem;
+    }
+
+    .wedding-photo {
+        height: 12rem;
+    }
+
+    .bakery, .wedding, .aupair {
+        padding-bottom: 5rem;
+    } 
+}
+
+@media (max-width: 500px) {
+    .bakery-photo, .aupair-photo {
+        height: 10rem;
+    }
+
+    .wedding-photo {
+        height: 10rem;
+    }
+}
+
