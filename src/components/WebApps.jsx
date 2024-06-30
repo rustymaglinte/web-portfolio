@@ -10,11 +10,13 @@ const WebApps = () => {
       </div>
       <div className="project2">
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/tictactoe.webp"
-            alt="Tic-Tac-Toe Web App"
-            className="wedding-photo"
-          />
+          <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
+            <img
+              src="../../media/web_portfolio_2.0/tictactoe.webp"
+              alt="Tic-Tac-Toe Web App"
+              className="wedding-photo"
+            />
+          </a>
         </div>
         <div className="wedding">
           <h5>Tic-Tac-Toe Game Web App</h5>
@@ -44,20 +46,27 @@ const WebApps = () => {
           </button>
         </div>
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/psing_webapp.webp"
-            alt="Karaoke Web App"
-            className="aupair-photo"
-          />
+          <a href="https://rustymaglinte.com/pinoysing/" target="_blank">
+            <img
+              src="../../media/web_portfolio_2.0/psing_webapp.webp"
+              alt="Karaoke Web App"
+              className="aupair-photo"
+            />
+          </a>
         </div>
       </div>
       <div className="project2">
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/psing_mobileapp.webp"
-            alt="Karaoke Mobile App"
-            className="wedding-photo"
-          />
+          <a
+            href="https://play.google.com/store/apps/details?id=com.rustymaglinte.PinoySing"
+            target="_blank"
+          >
+            <img
+              src="../../media/web_portfolio_2.0/psing_mobileapp.webp"
+              alt="Karaoke Mobile App"
+              className="wedding-photo"
+            />
+          </a>
         </div>
         <div className="wedding">
           <h5>Karaoke Mobile App</h5>
@@ -91,20 +100,24 @@ const WebApps = () => {
           </button>
         </div>
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/baker-img.webp"
-            alt="Bakery Website"
-            className="aupair-photo"
-          />
+          <a href="https://rustymaglinte.com/bakery1/" target="_blank">
+            <img
+              src="../../media/web_portfolio_2.0/baker-img.webp"
+              alt="Bakery Website"
+              className="aupair-photo"
+            />
+          </a>
         </div>
       </div>
       <div className="project2">
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/wed-img.webp"
-            alt="Wedding Website"
-            className="wedding-photo"
-          />
+          <a href="https://rustymaglinte.com/wedding1/" target="_blank">
+            <img
+              src="../../media/web_portfolio_2.0/wed-img.webp"
+              alt="Wedding Website"
+              className="wedding-photo"
+            />
+          </a>
         </div>
         <div className="wedding">
           <h5>Wedding Website</h5>
@@ -133,11 +146,13 @@ const WebApps = () => {
           </button>
         </div>
         <div>
-          <img
-            src="../../media/web_portfolio_2.0/aupair-img.webp"
-            alt="AuPair Website"
-            className="aupair-photo"
-          />
+          <a href="https://rustymaglinte.com/aupaircentral/" target="_blank">
+            <img
+              src="../../media/web_portfolio_2.0/aupair-img.webp"
+              alt="AuPair Website"
+              className="aupair-photo"
+            />
+          </a>
         </div>
       </div>
     </div>
