@@ -10,7 +10,7 @@ const AboutPage = () => {
             <About />
             <SEO
                 title={"Rusty Maglinte - About Page"}
-                description={"Hey. I am Rusty Maglinte. I'm a Web Developer, Electronics Engineer and a music lover based in the Philippines. I can build beautiful, responsive and user-friendly Web Apps and Websites for you. Shoot me a DM for any Web needs that you have."}
+                description={"Hey. I am Rusty Maglinte. I'm a Software Developer, Electronics Engineer and a music lover based in the Philippines. I can build beautiful, responsive and user-friendly Websites and Apps for you. Shoot me a DM. I'm here to help.😊"}
                 photo={
                     <img
                         src="../../media/web_portfolio_2.0/about.webp"

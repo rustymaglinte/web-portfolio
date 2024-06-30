@@ -1,5 +1,11 @@
 .home {
-    background: radial-gradient(circle at 100% 40%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 23rem);
+    /* background: radial-gradient(circle at 100% 40%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 23rem); */
+    background: radial-gradient(
+    circle,
+    rgba(13, 34, 25, 1) 0%,
+    rgba(0, 4, 23, 1) 75%,
+    rgba(0, 4, 23, 1) 100%
+  );
     display: flex;
     flex-direction: row;
     position: relative;
@@ -35,6 +41,7 @@
     height: 100vh;
     position: absolute;
     right: 0rem;
+    bottom: 0rem;
 }
 
 .home button {
@@ -87,10 +94,11 @@
     opacity: 1;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
     .home {
         height: 100vh;
-        background: radial-gradient(circle at 100% 55%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 18rem);
+        /* background: radial-gradient(circle at 100% 55%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 18rem); */
+        
     }
 
     .home .profile {
@@ -112,8 +120,12 @@
         margin-right: 0.7rem;
     }
 
+    .intro {
+        margin-left: 20%;
+    }
+
     .icons {
-        margin-left: 30%;
+        margin-left: 20%;
         bottom: 7rem;
         background-color: #121212;
         height: 5%;
@@ -126,9 +138,9 @@
 
 @media (max-width: 480px) {
 
-    .home {
+    /* .home {
         background: radial-gradient(circle at 100% 70%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 30%);
-    }
+    } */
 
     .home .profile {
         height: 50vh;
@@ -149,7 +161,6 @@
     }
 
     .icons {
-        margin-left: 30%;
         bottom: 10rem;
     }
 
@@ -175,10 +186,10 @@
 @media (max-height: 605px) {
     .home {
         height: 40rem;
-        background: radial-gradient(circle at 100% 50%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 35%);
+        background: radial-gradient(circle at 100% 60%, rgba(36, 219, 139, 1) 0%, rgba(18, 18, 18, 1) 35%);
     }
 
     .home .profile {
-        height: 60vh !important;
+        height: 75vh !important;
     }
 }

@@ -2,6 +2,12 @@
     padding-left: 20%;
     padding-right: 20%;
     background-color: #121212;
+    background: radial-gradient(
+    circle,
+    rgba(13, 34, 25, 1) 0%,
+    rgba(0, 4, 23, 1) 75%,
+    rgba(0, 4, 23, 1) 100%
+  );
     padding-bottom: 7rem;
 }
 
@@ -16,7 +22,7 @@
 .apps-container .bakery h5 {
     color: #24DB8B;
     letter-spacing: 0.1rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
     font-size: 1rem;
 }
 
@@ -49,7 +55,7 @@
 
 .bakery-photo {
     height: 15rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-left: 3rem;
 }
 
@@ -98,7 +104,7 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 735px) {
+@media (max-width: 1245px) {
     .project1,  .project3 {
         flex-direction: column-reverse;
     }

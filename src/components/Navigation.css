@@ -29,7 +29,7 @@
     letter-spacing: 0.05rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     .hamburger-container {
         display: block;

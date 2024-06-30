@@ -7,13 +7,13 @@ const About = () => {
             <div className="about-me">
                 <h4>ABOUT ME</h4>
                 <p>Hey. I am <span>Rusty Maglinte</span>.</p>
-                <p>I'm a Web Developer, Electronics Engineer and a music lover based in the Philippines.</p>
-                <p>I can build beautiful, responsive and user-friendly Web Apps and Websites for you.</p>
-                <p>Shoot me a DM for any Web needs that you have.</p>
+                <p>I'm a Software Developer, Electronics Engineer and a music lover based in the Philippines.</p>
+                <p>I can build beautiful, responsive and user-friendly Websites and Apps for you.</p>
+                <p>Shoot me a DM. I'm here to help.😊</p>
             </div>
             <div className="tech-stacks">
-                <h4>TECH STACKS</h4>
-                <p>Here are the technologies I’ve been working on:</p>
+                <h4>TECH STACK</h4>
+                <p>Here are the technologies I use on my projects:</p>
                 <div className="technologies">
                     <div className="logo-container">
                         <img
@@ -53,10 +53,10 @@ const About = () => {
                     <div className="logo-container">
                         <img
                             src="../../media/web_portfolio_2.0/react-logo.svg"
-                            alt="React Logo"
+                            alt="React.js Logo"
                             className="logo"
                         />
-                        <p>React</p>
+                        <p>React.js</p>
                     </div>
                     <div className="logo-container">
                         <img
@@ -76,11 +76,11 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/api-logo.svg"
-                            alt="API Logo"
+                            src="../../media/web_portfolio_2.0/react-logo.svg"
+                            alt="React Native Logo"
                             className="logo"
                         />
-                        <p>API</p>
+                        <p>React Native</p>
                     </div>
                 </div>
 

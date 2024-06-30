@@ -47,7 +47,7 @@ const Navigation = () => {
             <div className={`navigation ${isMobile ? 'mobile' : ''}`}>
                 <Link to="/" onClick={handleToggle}>Home</Link>
                 <Link to="/about" onClick={handleToggle}>About</Link>
-                <Link to="/apps" onClick={handleToggle}>Web Apps</Link>
+                <Link to="/apps" onClick={handleToggle}>Apps and Sites</Link>
                 <Link to="/video" onClick={handleToggle}>Videos</Link>
                 <Link to="/blogs" onClick={handleToggle}>Blogs</Link>
             </div>

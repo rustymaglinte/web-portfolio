@@ -7,10 +7,10 @@ const HomePage = () => {
     return (
         <div>
             <Navigation />
-            <Home words={["WEB DEVELOPER", "ENGINEER", "MUSIC LOVER"]} />
+            <Home words={["SOFTWARE DEVELOPER", "ELECTRONICS ENGINEER", "MUSIC LOVER"]} />
             <SEO
                 title={"Rusty Maglinte - Homepage"}
-                description={"Hi. My name is Rusty Maglinte - a Web Developer, Engineer and music lover from the Philipppines. Let me help you in building your website.😊"}
+                description={"Hey. I am Rusty Maglinte. I'm a Software Developer, Electronics Engineer and a music lover based in the Philippines. I can build beautiful, responsive and user-friendly Websites and Apps for you. Shoot me a DM. I'm here to help.😊"}
                 photo={
                     <img
                         src="../../media/web_portfolio_2.0/homepage.webp"
