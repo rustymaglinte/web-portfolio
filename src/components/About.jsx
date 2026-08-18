@@ -17,7 +17,7 @@ const About = () => {
                 <div className="technologies">
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/figma-logo.svg"
+                            src="/media/web_portfolio_2.0/figma-logo.svg"
                             alt="Figma Logo"
                             className="logo"
                         />
@@ -25,7 +25,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/html-logo.svg"
+                            src="/media/web_portfolio_2.0/html-logo.svg"
                             alt="HTML Logo"
                             className="logo"
                         />
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/css-logo.svg"
+                            src="/media/web_portfolio_2.0/css-logo.svg"
                             alt="CSS Logo"
                             className="logo"
                         />
@@ -41,7 +41,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/javascript-logo.svg"
+                            src="/media/web_portfolio_2.0/javascript-logo.svg"
                             alt="Javascript Logo"
                             className="logo"
                         />
@@ -52,7 +52,7 @@ const About = () => {
                 <div className="technologies">
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/react-logo.svg"
+                            src="/media/web_portfolio_2.0/react-logo.svg"
                             alt="React.js Logo"
                             className="logo"
                         />
@@ -60,7 +60,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/node-js.svg"
+                            src="/media/web_portfolio_2.0/node-js.svg"
                             alt="Node.js Logo"
                             className="logo"
                         />
@@ -68,7 +68,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/mongodb.svg"
+                            src="/media/web_portfolio_2.0/mongodb.svg"
                             alt="MongoDB Logo"
                             className="logo"
                         />
@@ -76,7 +76,7 @@ const About = () => {
                     </div>
                     <div className="logo-container">
                         <img
-                            src="../../media/web_portfolio_2.0/react-logo.svg"
+                            src="/media/web_portfolio_2.0/react-logo.svg"
                             alt="React Native Logo"
                             className="logo"
                         />

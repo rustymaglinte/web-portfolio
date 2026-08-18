@@ -13,10 +13,10 @@ const Videos = () => {
         {/* <video
           className="video"
           controls={true}
-          poster="../../media/web_portfolio_2.0/lion-thumb.webp"
+          poster="/media/web_portfolio_2.0/lion-thumb.webp"
         >
           <source
-            src="../../media/web_portfolio_2.0/lions-cut.mp4"
+            src="/media/web_portfolio_2.0/lions-cut.mp4"
             type="video/mp4"
           />
         </video> */}
@@ -46,10 +46,10 @@ const Videos = () => {
         {/* <video
           className="video"
           controls={true}
-          poster="../../media/web_portfolio_2.0/river-thumb.webp"
+          poster="/media/web_portfolio_2.0/river-thumb.webp"
         >
           <source
-            src="../../media/web_portfolio_2.0/river-cut.mp4"
+            src="/media/web_portfolio_2.0/river-cut.mp4"
             type="video/mp4"
           />
         </video> */}
@@ -76,10 +76,10 @@ const Videos = () => {
         {/* <video
           className="video"
           controls={true}
-          poster="../../media/web_portfolio_2.0/aubrey-thumb.webp"
+          poster="/media/web_portfolio_2.0/aubrey-thumb.webp"
         >
           <source
-            src="../../media/web_portfolio_2.0/aubrey-cut.mp4"
+            src="/media/web_portfolio_2.0/aubrey-cut.mp4"
             type="video/mp4"
           />
         </video> */}

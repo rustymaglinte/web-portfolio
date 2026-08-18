@@ -13,7 +13,7 @@ const WebAppsPage = () => {
                 description={"Here are some of the projects I’ve worked on."}
                 photo={
                     <img
-                        src="../../media/web_portfolio_2.0/webapps.webp"
+                        src="/media/web_portfolio_2.0/webapps.webp"
                         alt="Web Apps Photo"
                     />}
             />

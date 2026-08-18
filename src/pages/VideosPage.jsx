@@ -13,7 +13,7 @@ const VideosPage = () => {
                 description={"Just for fun. Here are some of my videos. You can find more on my Youtube channel."}
                 photo={
                     <img
-                        src="../../media/web_portfolio_2.0/videos.webp"
+                        src="/media/web_portfolio_2.0/videos.webp"
                         alt="Videos Photo"
                     />}
             />

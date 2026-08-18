@@ -26,21 +26,21 @@ const Home = ({ words }) => {
         <div className="icons">
           <a href="https://github.com/rustymaglinte/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/github.png"
+              src="/media/web_portfolio_2.0/github.png"
               alt="Github Icon"
               className="icon"
             />
           </a>
           <a href="https://www.facebook.com/maglinterusty/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/facebook-icon.svg"
+              src="/media/web_portfolio_2.0/facebook-icon.svg"
               alt="Facebook Icon"
               className="icon"
             />
           </a>
           <a href="https://www.youtube.com/@rustymaglinte581" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/youtube-icon.svg"
+              src="/media/web_portfolio_2.0/youtube-icon.svg"
               alt="Facebook Icon"
               className="icon"
             />
@@ -50,7 +50,7 @@ const Home = ({ words }) => {
             target="_blank"
           >
             <img
-              src="../../media/web_portfolio_2.0/linkedin-icon.svg"
+              src="/media/web_portfolio_2.0/linkedin-icon.svg"
               alt="Facebook Icon"
               className="icon"
             />
@@ -58,8 +58,8 @@ const Home = ({ words }) => {
         </div>
         <div>
           <img
-            src="../../media/web_portfolio_2.0/prof-img.webp"
-            srcSet="../../media/web_portfolio_2.0/prof-img1.webp 768w, ../../media/web_portfolio_2.0/prof-img2.webp 480w"
+            src="/media/web_portfolio_2.0/prof-img.webp"
+            srcSet="/media/web_portfolio_2.0/prof-img1.webp 768w, /media/web_portfolio_2.0/prof-img2.webp 480w"
             sizes="(max-width: 860px) 860px, (max-width: 480px) 480px, 1600px"
             alt="Rusty Maglinte's photo"
             className="profile"

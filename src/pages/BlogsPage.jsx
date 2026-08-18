@@ -13,7 +13,7 @@ const BlogsPage = () => {
                 description={"This one's a Work in Progress. Will update for you soon."}
                 photo={
                     <img
-                        src="../../media/web_portfolio_2.0/blog.webp"
+                        src="/media/web_portfolio_2.0/blog.webp"
                         alt="Blog Photo"
                     />}
             />

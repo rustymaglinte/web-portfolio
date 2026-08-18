@@ -12,7 +12,7 @@ const WebApps = () => {
         <div>
           <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/tictactoe.webp"
+              src="/media/web_portfolio_2.0/tictactoe.webp"
               alt="Tic-Tac-Toe Web App"
               className="wedding-photo"
             />
@@ -48,7 +48,7 @@ const WebApps = () => {
         <div>
           <a href="https://rustymaglinte.com/pinoysing/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/psing_webapp.webp"
+              src="/media/web_portfolio_2.0/psing_webapp.webp"
               alt="Karaoke Web App"
               className="aupair-photo"
             />
@@ -62,7 +62,7 @@ const WebApps = () => {
             target="_blank"
           >
             <img
-              src="../../media/web_portfolio_2.0/psing_mobileapp.webp"
+              src="/media/web_portfolio_2.0/psing_mobileapp.webp"
               alt="Karaoke Mobile App"
               className="wedding-photo"
             />
@@ -102,7 +102,7 @@ const WebApps = () => {
         <div>
           <a href="https://rustymaglinte.com/bakery1/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/baker-img.webp"
+              src="/media/web_portfolio_2.0/baker-img.webp"
               alt="Bakery Website"
               className="aupair-photo"
             />
@@ -113,7 +113,7 @@ const WebApps = () => {
         <div>
           <a href="https://rustymaglinte.com/wedding1/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/wed-img.webp"
+              src="/media/web_portfolio_2.0/wed-img.webp"
               alt="Wedding Website"
               className="wedding-photo"
             />
@@ -148,7 +148,7 @@ const WebApps = () => {
         <div>
           <a href="https://rustymaglinte.com/aupaircentral/" target="_blank">
             <img
-              src="../../media/web_portfolio_2.0/aupair-img.webp"
+              src="/media/web_portfolio_2.0/aupair-img.webp"
               alt="AuPair Website"
               className="aupair-photo"
             />
