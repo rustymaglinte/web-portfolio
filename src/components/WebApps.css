@@ -65,6 +65,14 @@
     margin-left: 3rem;
 }
 
+.integricare-photo {
+    height: 15rem;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.45);
+    object-fit: cover;
+}
 .wedding-photo {
     height: 15rem;
     margin-top: 10rem;
@@ -125,7 +133,7 @@
         margin-top: 2rem;
     }
 
-    .bakery-photo, .aupair-photo {
+    .bakery-photo, .aupair-photo, .integricare-photo {
         margin-left: 0;
         height: 12rem;
     }
@@ -147,7 +155,7 @@
 }
 
 @media (max-width: 500px) {
-    .bakery-photo, .aupair-photo {
+    .bakery-photo, .aupair-photo, .integricare-photo {
         height: 10rem;
     }
 

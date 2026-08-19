@@ -27,7 +27,7 @@ const WebApps = () => {
             <img
               src="/media/web_portfolio_2.0/integricare-img.webp"
               alt="Integricare Training Institute Website"
-              className="aupair-photo"
+              className="integricare-photo"
             />
           </a>
         </div>

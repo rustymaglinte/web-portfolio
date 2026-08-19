@@ -1,8 +1,20 @@
-# SPA fallback for routes the server would otherwise 404.
-# Explicit paths only - a /app/* splat would also capture that app's
-# own assets and serve them as HTML.
+# SPA fallbacks, listed explicitly. There is deliberately NO /* catch-all.
+#
+# Cloudflare applies these rules even when a real asset matches the request.
+# With a catch-all, any asset that momentarily 404s - e.g. index.html is live
+# but its hashed bundle has not propagated yet - is answered with index.html
+# as text/html. The browser rejects it for a module script AND caches it under
+# the .js URL for that asset's max-age (4h), so the site stays broken for that
+# visitor long after the deploy settles. Enumerating routes removes the risk:
+# an unknown path now returns a genuine 404 instead of poisoning a cache.
 
-# Integricare: hand-rolled routing on window.location.pathname
+# Portfolio (react-router)
+/about /index.html 200
+/apps /index.html 200
+/video /index.html 200
+/blogs /index.html 200
+
+# Integricare - hand-rolled routing on window.location.pathname
 /integricare/about /integricare/index.html 200
 /integricare/course/* /integricare/index.html 200
 /integricare/blog/* /integricare/index.html 200
@@ -15,6 +27,3 @@
 # Au Pair Central
 /aupaircentral/login /aupaircentral/index.html 200
 /aupaircentral/register /aupaircentral/index.html 200
-
-# Portfolio catch-all. Must remain last.
-/* /index.html 200
