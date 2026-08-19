@@ -1,0 +1,10 @@
+# Per-app SPA fallback. Order matters: specific rules must precede the catch-all,
+# otherwise every subapp deep link is swallowed by the portfolio's index.html.
+/tictactoe/*      /tictactoe/index.html      200
+/pinoysing/*      /pinoysing/index.html      200
+/bakery1/*        /bakery1/index.html        200
+/wedding1/*       /wedding1/index.html       200
+/aupaircentral/*  /aupaircentral/index.html  200
+
+# Portfolio SPA fallback.
+/*                /index.html                200
