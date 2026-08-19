@@ -8,6 +8,30 @@ const WebApps = () => {
         <h4>MY APPS</h4>
         <p>Below are some of the projects I’ve worked on:</p>
       </div>
+      <div className="project1">
+        <div className="wedding">
+          <h5>Training Institute Website</h5>
+          <p>
+            A website for a caregiving and healthcare training institute -
+            course listings, enrolment inquiries and a blog, managed through a
+            custom admin panel. Built with React and a Node/MongoDB backend.
+          </p>
+          <button>
+            <a href="https://rustymaglinte.com/integricare/" target="_blank" rel="noopener noreferrer">
+              See this project →
+            </a>
+          </button>
+        </div>
+        <div>
+          <a href="https://rustymaglinte.com/integricare/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/media/web_portfolio_2.0/integricare-img.webp"
+              alt="Integricare Training Institute Website"
+              className="aupair-photo"
+            />
+          </a>
+        </div>
+      </div>
       <div className="project2">
         <div>
           <a href="https://rustymaglinte.com/tictactoe/" target="_blank">

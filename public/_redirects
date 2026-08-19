@@ -1,10 +1,20 @@
-# Per-app SPA fallback. Order matters: specific rules must precede the catch-all,
-# otherwise every subapp deep link is swallowed by the portfolio's index.html.
-/tictactoe/*      /tictactoe/index.html      200
-/pinoysing/*      /pinoysing/index.html      200
-/bakery1/*        /bakery1/index.html        200
-/wedding1/*       /wedding1/index.html       200
-/aupaircentral/*  /aupaircentral/index.html  200
+# SPA fallback for routes the server would otherwise 404.
+# Explicit paths only - a /app/* splat would also capture that app's
+# own assets and serve them as HTML.
 
-# Portfolio SPA fallback.
-/*                /index.html                200
+# Integricare: hand-rolled routing on window.location.pathname
+/integricare/about /integricare/index.html 200
+/integricare/course/* /integricare/index.html 200
+/integricare/blog/* /integricare/index.html 200
+
+# PinoySing admin
+/pinoysing/admin /pinoysing/index.html 200
+/pinoysing/admin/login /pinoysing/index.html 200
+/pinoysing/admin/edit/* /pinoysing/index.html 200
+
+# Au Pair Central
+/aupaircentral/login /aupaircentral/index.html 200
+/aupaircentral/register /aupaircentral/index.html 200
+
+# Portfolio catch-all. Must remain last.
+/* /index.html 200
