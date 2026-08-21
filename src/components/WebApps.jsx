@@ -8,48 +8,24 @@ const WebApps = () => {
         <h4>MY APPS</h4>
         <p>Below are some of the projects I’ve worked on:</p>
       </div>
-      <div className="project1">
-        <div className="wedding">
-          <h5>Training Institute Website</h5>
-          <p>
-            A website for a caregiving and healthcare training institute -
-            course listings, enrolment inquiries and a blog, managed through a
-            custom admin panel. Built with React and a Node/MongoDB backend.
-          </p>
-          <button>
-            <a href="https://rustymaglinte.com/integricare/" target="_blank" rel="noopener noreferrer">
-              See this project →
-            </a>
-          </button>
-        </div>
-        <div>
-          <a href="https://rustymaglinte.com/integricare/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/media/web_portfolio_2.0/integricare-img.webp"
-              alt="Integricare Training Institute Website"
-              className="integricare-photo"
-            />
-          </a>
-        </div>
-      </div>
       <div className="project2">
         <div>
-          <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
+          <a href="https://derekt.xyz/" target="_blank">
             <img
-              src="/media/web_portfolio_2.0/tictactoe.webp"
-              alt="Tic-Tac-Toe Web App"
+              src="/media/web_portfolio_2.0/derekt.webp"
+              alt="Trading Bot Web App"
               className="wedding-photo"
             />
           </a>
         </div>
         <div className="wedding">
-          <h5>Tic-Tac-Toe Game Web App</h5>
+          <h5>Trading Bot Web App</h5>
           <p>
-            The all-time-loved tic-tac-toe game for you to play - saves your
-            progress each round. Developed using the MERN stack.
+            A web app for automating cryptocurrency trading strategies.
+            Developed using React, Node.js and PostgreSQL.
           </p>
           <button>
-            <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
+            <a href="https://derekt.xyz/" target="_blank">
               See this project →
             </a>
           </button>
@@ -82,7 +58,7 @@ const WebApps = () => {
       <div className="project2">
         <div>
           <a
-            href="https://play.google.com/store/apps/details?id=com.rustymaglinte.PinoySing"
+            href="https://drive.google.com/drive/folders/1U3Im08tyZr15ZcKIkeIhRlqM19isSO9R?usp=sharing"
             target="_blank"
           >
             <img
@@ -96,15 +72,70 @@ const WebApps = () => {
           <h5>Karaoke Mobile App</h5>
           <p>
             This is the android Mobile App version of the above web app. Logic
-            is almost the same. Except of course the front end is developed
-            using React Native.
+            is almost the same. Except the front end is developed using React
+            Native.
           </p>
           <button>
             <a
-              href="https://play.google.com/store/apps/details?id=com.rustymaglinte.PinoySing"
+              href="https://drive.google.com/drive/folders/1U3Im08tyZr15ZcKIkeIhRlqM19isSO9R?usp=sharing"
               target="_blank"
             >
-              Download on Google Play →
+              Download Android App →
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="project1">
+        <div className="wedding">
+          <h5>Training Institute Website</h5>
+          <p>
+            A website for a caregiving and healthcare training institute -
+            course listings, enrolment inquiries and a blog, managed through a
+            custom admin panel. Built with React and a Node/MongoDB backend.
+          </p>
+          <button>
+            <a
+              href="https://rustymaglinte.com/integricare/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See this project →
+            </a>
+          </button>
+        </div>
+        <div>
+          <a
+            href="https://rustymaglinte.com/integricare/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/media/web_portfolio_2.0/integricare-img.webp"
+              alt="Integricare Training Institute Website"
+              className="integricare-photo"
+            />
+          </a>
+        </div>
+      </div>
+      <div className="project2">
+        <div>
+          <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
+            <img
+              src="/media/web_portfolio_2.0/tictactoe.webp"
+              alt="Tic-Tac-Toe Web App"
+              className="wedding-photo"
+            />
+          </a>
+        </div>
+        <div className="wedding">
+          <h5>Tic-Tac-Toe Game Web App</h5>
+          <p>
+            The all-time-loved tic-tac-toe game for you to play - saves your
+            progress each round. Developed using the MERN stack.
+          </p>
+          <button>
+            <a href="https://rustymaglinte.com/tictactoe/" target="_blank">
+              See this project →
             </a>
           </button>
         </div>

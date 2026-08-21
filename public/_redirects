@@ -1,29 +1,46 @@
 # SPA fallbacks, listed explicitly. There is deliberately NO /* catch-all.
 #
-# Cloudflare applies these rules even when a real asset matches the request.
-# With a catch-all, any asset that momentarily 404s - e.g. index.html is live
-# but its hashed bundle has not propagated yet - is answered with index.html
-# as text/html. The browser rejects it for a module script AND caches it under
-# the .js URL for that asset's max-age (4h), so the site stays broken for that
-# visitor long after the deploy settles. Enumerating routes removes the risk:
-# an unknown path now returns a genuine 404 instead of poisoning a cache.
+# A top-level 404.html now exists, which switches Pages out of its default
+# single-page-application mode. That default was what answered a missing
+# asset with index.html as text/html: the browser rejected it as a module
+# script AND cached it under the .js URL for that asset's max-age (4h), so
+# a deploy-window propagation gap left visitors on a blank page long after
+# the server recovered. With 404.html present, a miss is a real 404 - it
+# fails once and recovers on reload instead of poisoning a cache.
+#
+# The trade-off: Pages no longer falls back for us, so every client-side
+# route MUST be listed here or it will 404. Both slash forms are listed
+# rather than relying on Pages' trailing-slash normalisation.
 
 # Portfolio (react-router)
 /about /index.html 200
+/about/ /index.html 200
 /apps /index.html 200
+/apps/ /index.html 200
 /video /index.html 200
+/video/ /index.html 200
 /blogs /index.html 200
+/blogs/ /index.html 200
 
 # Integricare - hand-rolled routing on window.location.pathname
 /integricare/about /integricare/index.html 200
+/integricare/about/ /integricare/index.html 200
 /integricare/course/* /integricare/index.html 200
 /integricare/blog/* /integricare/index.html 200
 
 # PinoySing admin
 /pinoysing/admin /pinoysing/index.html 200
+/pinoysing/admin/ /pinoysing/index.html 200
 /pinoysing/admin/login /pinoysing/index.html 200
+/pinoysing/admin/login/ /pinoysing/index.html 200
 /pinoysing/admin/edit/* /pinoysing/index.html 200
 
 # Au Pair Central
 /aupaircentral/login /aupaircentral/index.html 200
+/aupaircentral/login/ /aupaircentral/index.html 200
 /aupaircentral/register /aupaircentral/index.html 200
+/aupaircentral/register/ /aupaircentral/index.html 200
+
+# Tic-Tac-Toe (react-router; reachable by refresh/direct link)
+/tictactoe/game /tictactoe/index.html 200
+/tictactoe/game/ /tictactoe/index.html 200
